@@ -1,0 +1,104 @@
+/* CSS Document */
+
+body {
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	font-size: 16px;
+	line-height: 1.428571429;
+}
+.header_top {
+	background: none repeat scroll 0 0 #D14545;
+	display: block;
+	position: relative;
+	/*z-index: 1;*/
+	margin-top: -10px;
+	margin-bottom: -12px;
+}
+ul li {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.contactinfo ul li a{
+	color:#FFFFFF;
+	}
+.contactinfo ul li a:hover{
+	color:#333;
+	}
+.social-icons ul li a{
+	color:#FFFFFF;
+	}
+.social-icons ul li a:hover{
+	color:#333;
+	}
+/*header-middle*/
+.header-middle {
+	height: 65px;
+	padding: 0 0 20px 0;
+	overflow: visible !important;
+	background: #E14249;
+	transform: translate(0, 0);
+	width: 100%;
+	opacity: 1;
+	position: fixed;
+}
+.logo img {
+	width: 121px;
+	height: 65px;
+	padding: 4px;
+}
+.search {
+	display: inline-block;
+	position: absolute;
+	height: 29px;
+	width: 29px;
+	box-sizing: border-box;
+	margin: 15px 8px 7px 0px;
+	padding: 7px 9px 0px 9px;
+	border: 3px solid #ffffff;
+	border-radius: 25px;
+	-webkit-transition: all 200ms ease;
+	transition: all 200ms ease;
+	cursor: text;
+}
+.search:after {
+	content: "";
+	position: absolute;
+	width: 3px;
+	height: 20px;
+	right: -5px;
+	top: 21px;
+	background: #ffffff;
+	border-radius: 3px;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	transition: all 200ms ease;
+}
+.search.active, .search:hover {
+	width: 300px;
+	margin-right: 0px;
+}
+.search.active:after, .search:hover:after {
+	height: 0px;
+}
+.search input {
+	width: 100%;
+	border: none;
+	box-sizing: border-box;
+	font-family: Helvetica;
+	font-size: 15px;
+	color: inherit;
+	background: transparent;
+	outline-width: 0px;
+}
+.accountCart ul li a{
+	padding: 18px;
+	color: #fff;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 1.14em;
+}
+
+/*************************
+*******End of Header CSS******
+**************************/
